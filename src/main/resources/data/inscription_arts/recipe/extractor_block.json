@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BIB",
+    "BBB"
+  ],
+  "key": {
+    "B": { "item": "minecraft:cobblestone" },
+    "I": { "item": "minecraft:iron_ingot" }
+  },
+  "result": { "id": "inscription_arts:extractor_block" }
+}

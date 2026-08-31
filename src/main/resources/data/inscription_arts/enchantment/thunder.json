@@ -1,0 +1,38 @@
+{
+  "description": {
+    "translate": "enchantment.inscription_arts.thunder"
+  },
+  "supported_items": [
+    "minecraft:wooden_sword",
+    "minecraft:stone_sword",
+    "minecraft:iron_sword",
+    "minecraft:golden_sword",
+    "minecraft:diamond_sword",
+    "minecraft:netherite_sword",
+    "minecraft:wooden_axe",
+    "minecraft:stone_axe",
+    "minecraft:iron_axe",
+    "minecraft:golden_axe",
+    "minecraft:diamond_axe",
+    "minecraft:netherite_axe",
+    "minecraft:trident",
+    "minecraft:mace",
+    "inscription_arts:sword",
+    "inscription_arts:axe",
+    "inscription_arts:hammer"
+  ],
+  "weight": 5,
+  "max_level": 10,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "mainhand"
+  ]
+}

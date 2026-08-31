@@ -1,0 +1,19 @@
+# Build output
+/build/
+/.gradle/
+
+# Runtime / generated artifacts (dev server world, AI source images)
+/run/
+/generated-images/
+
+# Logs
+*.log
+
+# OS / editor
+.DS_Store
+*.tmp
+*.bak
+
+# AI workspace memory / IDE config (keep out of public repo)
+.workbuddy/
+.idea/

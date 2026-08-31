@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "inscription_arts:block/rune_ore_iron_edge"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "inscription_arts:rune_essence" },
+    { "item": "minecraft:diamond" }
+  ],
+  "result": {
+    "id": "inscription_arts:rune_essence",
+    "components": {
+      "inscription_arts:rune_essence": "diamond"
+    }
+  }
+}

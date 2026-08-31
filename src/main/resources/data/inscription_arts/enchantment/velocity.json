@@ -1,0 +1,22 @@
+{
+  "description": {
+    "translate": "enchantment.inscription_arts.velocity"
+  },
+  "supported_items": [
+    "minecraft:bow"
+  ],
+  "weight": 5,
+  "max_level": 10,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "mainhand"
+  ]
+}

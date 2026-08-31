@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OIO",
+    "INI",
+    "OIO"
+  ],
+  "key": {
+    "O": { "item": "minecraft:cobblestone" },
+    "I": { "item": "minecraft:iron_ingot" },
+    "N": { "item": "minecraft:gold_ingot" }
+  },
+  "result": { "id": "inscription_arts:rune_altar_core" }
+}

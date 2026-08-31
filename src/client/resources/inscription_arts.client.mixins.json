@@ -1,0 +1,1 @@
+{"required": true, "package": "com.inscription_arts.mixin.client", "compatibilityLevel": "JAVA_21", "client": [], "injectors": {"defaultRequire": 1}}

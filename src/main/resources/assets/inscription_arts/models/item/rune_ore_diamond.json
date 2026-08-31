@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "inscription_arts:block/rune_ore_diamond"
+  }
+}

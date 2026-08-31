@@ -1,0 +1,27 @@
+{
+  "feature": "inscription_arts:rune_ore_iron_edge",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 11
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -24
+        },
+        "max_inclusive": {
+          "absolute": 40
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

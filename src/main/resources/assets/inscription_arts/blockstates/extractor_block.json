@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "inscription_arts:block/extractor_block" }
+  }
+}

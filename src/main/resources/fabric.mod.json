@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "inscription_arts",
+	"version": "1.0.0",
+	"name": "铭刻之艺 (Inscription Arts)",
+	"description": "一个原创的装备强化模组：从材料中萃取符文精华，在符文祭坛上将其铭刻到工具与武器上，获得固定、可预期的强化效果，替代原版附魔台的随机机制。",
+	"authors": [
+		"Inscription Arts Dev"
+	],
+	"contact": {
+		"homepage": "https://github.com/inscription-arts/inscription-arts",
+		"sources": "https://github.com/inscription-arts/inscription-arts"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/inscription_arts/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.inscription_arts.InscriptionArts"
+		],
+		"client": [
+			"com.inscription_arts.InscriptionArtsClient"
+		]
+	},
+	"mixins": [
+		"inscription_arts.mixins.json",
+		{
+			"config": "inscription_arts.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
